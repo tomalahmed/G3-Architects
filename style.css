@@ -17,7 +17,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
-  
+
 }
 
 
@@ -26,16 +26,15 @@
     border-radius: 8px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    padding: 10px 25px;
     cursor: pointer;
     text-align: center;
-    font-weight: 700;
-    font-size: 1.3rem;
     border: none;
-    width: 240px;
-    height: 70px;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 8px;
     margin-bottom: 50px;
-    margin-top: 30px;
 }
 
 .btn-primary:hover {
@@ -53,12 +52,12 @@ header {
 }
 
 .header-wrapper {
-   padding-left: 228px;
+    padding-left: 228px;
     padding-right: 240px;
 }
 
 .navbar {
-    padding: 50px 0;
+    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,7 +93,7 @@ header {
 }
 
 .banner-title {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     text-align: center;
     letter-spacing: 0%;
@@ -103,8 +102,8 @@ header {
 }
 
 .banner-description {
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 0.9rem;
+    font-weight: 500;
     max-width: 870px;
     text-align: center;
     color: var(--dark03);
@@ -113,12 +112,6 @@ header {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.banner-button {
-    margin-top: 20px;
-    padding: 20px 30px;
-    font-size: large;
 }
 
 .banner-image-container {
@@ -182,7 +175,7 @@ header {
 }
 
 .feature-content-text h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
     text-align: left;
     letter-spacing: 0%;
@@ -190,21 +183,28 @@ header {
     margin-bottom: 20px;
 }
 
-/* info section */
+.feature-content-text p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #info {
-    margin:240px;
-    width: 1440px;
+    margin: 100px auto;
+    max-width: 1440px;
 }
 
 .info-wrapper {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    gap: 80px;
-    padding: 20px;
-    margin: 20px auto;
-    width: 1440px;
-    height: 800px;
+    gap: 50px;
+    padding: 40px 20px;
+    border-radius: 8px;
 }
 
 
@@ -221,7 +221,7 @@ header {
 }
 
 .info-description {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     max-width: 500px;
     text-align: start;
@@ -241,9 +241,9 @@ header {
     gap: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    padding: 30px;
-    width: 500px;
-    height: 200px;
+    padding: 20px;
+    max-width: 500px;
+    height: 180px;
     transition: all 0.3s ease;
 }
 
@@ -261,42 +261,41 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .info-box h1 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 700;
     text-align: left;
     letter-spacing: 0%;
 }
 
 .info-box p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 400;
     text-align: left;
     letter-spacing: 0%;
     margin-bottom: 20px;
     color: var(--dark03);
 }
+
 .info-image {
     position: relative;
     flex: 1;
-    width: 708px;
-    height: 800px;
 }
 
 .info-image img {
-    max-width: 600px;
-    height: auto;
     width: 100%;
+    height: auto;
     display: block;
 }
 
 .info-box-under-image {
     position: absolute;
-    bottom: -60px;
-    left: -60px;
+    bottom: -30px;
+    left: -30px;
     background-color: var(--primary-color);
     color: white;
-    padding: 35px 45px;
+    padding: 25px 35px;
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -320,15 +319,15 @@ header {
 }
 
 .facts-title {
-    font-size: 3rem;
+    font-size: 2.1rem;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
 .facts-description {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: var(--dark03);
-    max-width: 540px;
+    max-width: 440px;
     margin-bottom: 100px;
 }
 
@@ -339,7 +338,7 @@ header {
 }
 
 .fact-card {
-    border: 1px solid var(--primary-color);
+    
     border-radius: 10px;
     width: 240px;
     height: 240px;
@@ -368,9 +367,9 @@ header {
 }
 
 .fact-text {
-    font-size: 1.25rem;
+    font-size: 0.9rem;
     color: var(--dark03);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 /* sponsors section */
@@ -380,15 +379,15 @@ header {
 }
 
 .sponsors-title {
-    font-size: 3rem;
+    font-size: 2.1rem;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
 .sponsors-description {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: var(--dark03);
-    max-width: 540px;
+    max-width: 440px;
     margin: 0 auto 50px;
 }
 
@@ -396,13 +395,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     filter: grayscale(100%);
     opacity: 0.6;
 }
 
 .sponsors-logos img {
-    max-width: 150px;
+    max-width: 140px;
     transition: all 0.3s ease;
 }
 
@@ -426,8 +425,9 @@ footer {
 }
 
 .footer-container p {
-    font-size: 1.25rem;
+    font-size: 0.9rem;
     color: var(--dark02);
+    margin-bottom: 20px;
 }
 
 /* Responsiveness */
@@ -440,8 +440,16 @@ footer {
     #info,
     #some-facts,
     #sponsors {
-        margin-left: 50px;
-        margin-right: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .info-wrapper {
+        padding-left: 40px;
+        padding-right: 40px;
+        gap: 30px;
     }
 }
 
@@ -499,6 +507,7 @@ footer {
     .navbar {
         flex-direction: column;
         gap: 20px;
+        padding: 20px;
     }
 
     .nav-list {
@@ -506,7 +515,7 @@ footer {
     }
 
     .banner-title {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
     .features-container {
@@ -518,26 +527,38 @@ footer {
         height: auto;
     }
 
-    .feature img {
-        width: 100%;
-        height: auto;
+    .features-wrapper {
+        gap: 30px;
+    }
+
+    .info-wrapper {
+        padding: 40px 20px;
     }
 
     .info-box-under-image {
-        position: relative;
-        bottom: 0;
-        left: 0;
-        margin-top: 20px;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20px 30px;
+        width: max-content;
+    }
+
+    .info-box-under-image h1 {
+        font-size: 1.8rem;
+    }
+
+    .info-box-under-image p {
+        font-size: 1rem;
     }
 
     .facts-title,
     .sponsors-title {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .fact-card {
         width: 100%;
-        max-width: 340px;
+        max-width: 300px;
+        height: 200px;
     }
 }
-
